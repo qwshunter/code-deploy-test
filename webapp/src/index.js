@@ -8,6 +8,7 @@ app.get('/', function (req, res) {
 
 app.get('/healthcheck', function (req, res) {
 	res.send('ok')
+	console.log('Example app listening ok on port 3000!')
 })
 
 app.listen(3000, function () {
