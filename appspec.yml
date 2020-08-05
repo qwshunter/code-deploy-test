@@ -6,7 +6,7 @@ files:
     destination: /opt/webapp/
 hooks:
   ApplicationStop:
-    - location: /deployment_scripts/stop.sh
+    - location: deployment_scripts/stop.sh
   AfterInstall:
     - location: webapp/deployment_scripts/deploy.sh
   ApplicationStart:
