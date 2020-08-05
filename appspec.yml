@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/webapp
+    destination: /opt/webapp/
 hooks:
   ApplicationStop:
     - location: webapp/deployment_scripts/stop.sh
