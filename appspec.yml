@@ -1,7 +1,7 @@
   
 version: 0.0
 os: linux
-files:
+files: 
   - source: /
     destination: /opt/webapp/
 hooks:
